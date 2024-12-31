@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: image('marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero p {
+            font-size: 1.2em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #f4f4f4;
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .feature h3 {
+            margin: 15px 0;
+            color: #333;
+        }
+        .feature p {
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Landing Page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to My Product</h1>
+        <p>Discover the ultimate solution for your needs</p>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <img src="plumbing.jpeg" alt="Feature 1 Image">
+            <h3>plumbing </h3>
+            <p>Plumbing involves installing, repairing pipes, fixtures, and water systems..</p>
+        </div>
+        <div class="feature">
+            <img src="jared-brashier-OR3FqpLyPdI-unsplash.jpg" alt="Feature 2 Image">
+            <h3>carpenterc</h3>
+            <p>Carpentry involves building, repairing wooden structures, furniture, and frameworks.</p>
+        </div>
+        <div class="feature">
+            <img src="etienne-girardet-sgYamIzhAhg-unsplash.jpg" alt="Feature 3 Image">
+            <h3>counstruction</h3>
+            <p>Construction involves planning, building structures, infrastructure, and repairing physical environments.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Landing Page. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
